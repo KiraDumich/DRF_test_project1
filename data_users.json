@@ -1,0 +1,51 @@
+[
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$EPcqYrqfEF88SFAc8AEcy0$i8HgMxtFj00IKV9t7SAtU+U70pUOfWC48AjR01cAfto=",
+    "last_login": "2024-05-28T06:25:39.621Z",
+    "is_superuser": true,
+    "first_name": "Admin",
+    "last_name": "SkyPro",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-05-27T08:26:02.484Z",
+    "email": "admin@skypro.pro",
+    "phone": null,
+    "avatar": "",
+    "country": null,
+    "city": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.payment",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "payments_date": "2024-05-26T20:14:21Z",
+    "paid_course": 1,
+    "paid_lesson": 1,
+    "payment_sum": 500,
+    "payment_method": "card",
+    "payment_link": null,
+    "payment_id": "1"
+  }
+},
+{
+  "model": "users.payment",
+  "pk": 2,
+  "fields": {
+    "user": 1,
+    "payments_date": "2024-05-26T20:14:21Z",
+    "paid_course": 1,
+    "paid_lesson": 2,
+    "payment_sum": 500,
+    "payment_method": "card",
+    "payment_link": null,
+    "payment_id": "2"
+  }
+}
+]
